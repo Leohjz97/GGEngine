@@ -1,0 +1,11 @@
+-scale 0.01 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/ThrillerPart4.model
+-scale 0.01 ../../Assets/Models/Doozy/Doozy.fbx ../../Assets/Models/Doozy/Doozy.model
+-scale 0.01 ../../Assets/Models/Doozy/NewBehavior/IdleWithSkin.fbx ../../Assets/Models/Doozy/NewBehavior/IdleWithSkin.model
+Back
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/Idle.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/Jumping.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/Walking.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/Running.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/LeftStrafe.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/RightStrafe.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Doozy/ThrillerPart4.fbx ../../Assets/Models/Doozy/NewBehavior/Back.fbx

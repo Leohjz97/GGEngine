@@ -1,0 +1,40 @@
+{
+    "Name": "Test Level",
+    "Capacity": 100,
+    "Physics": {
+        "Gravity": [0.0, -9.81, 0.0]
+    },
+    "Services": {
+        "CameraService": {
+
+        },
+        "RenderService": {
+            "DirectionalLight": [ 1.0, -1.0, -1.0 ]
+        },
+        "AnimationChangeService": {
+
+        }
+    },
+    "GameObjects": {
+        "MainCamera": {
+            "Template": "../../Assets/Templates/fps_camera.json"
+        },
+        "Ground": {
+            "Template": "../../Assets/Templates/Ground.json",
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "TestPlayer": {
+            "Template": "../../Assets/Templates/test_player.json",
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "TestPlayer2": {
+            "Template": "../../Assets/Templates/test_player.json",
+            "Position": [ 1.0, 1.0, 0.0 ]
+        },
+        "TestPlayer3": {
+            "Template": "../../Assets/Templates/test_player.json",
+            "Position": [ -1.0, 5.0, 0.0 ]
+        }
+    }
+  
+}

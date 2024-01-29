@@ -1,0 +1,12 @@
+{
+    "Components": {
+        "CameraComponent": {
+        },
+        "ThirdPersonCameraComponent": {
+            "Target": "Player",
+            "Distance": 10,
+            "CameraHeight": 3,
+            "LookHeight": 1
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "MeshComponent": {
+            "Shape": {
+                "Type": "Plane",
+                "Rows": 100,
+                "Columns": 100,
+                "Spacing": 1.0
+            },
+            "Material": {
+                "Ambient": [ 0.5, 0.5, 0.5, 1.0 ],
+                "Diffuse": [ 0.8, 0.8, 0.8, 1.0 ],
+                "Specular": [ 0.9, 0.9, 0.9, 1.0 ],
+                "SpecularPower": 10
+            },
+            "Texture": {
+                "DiffuseMap": "Textures/misc/concrete.jpg"
+            }
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Hull",
+                "HalfExtents": [ 5.0, 0.1, 5.0 ],
+                "Origin": [0.0, 0.1, 0.0]
+            }
+        },
+        "RigidBodyComponent": {
+            "Mass": 0.0
+        }
+    }
+
+}

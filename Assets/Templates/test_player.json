@@ -1,0 +1,35 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0.0, 0.0, 0.0 ],
+      "Rotation": [ 0, 0, 0 ],
+      "Scale": [ 1, 1, 1 ]
+    },
+    "ModelComponent": {
+      "FileName": "../../Assets/Models/Doozy/ThrillerPart4.model",
+      "Rotation": [ 0, 180, 0 ],
+      "Animations": [
+        "../../Assets/Models/Doozy/NewBehavior/Idle.animset",
+        "../../Assets/Models/Doozy/NewBehavior/Walking.animset",
+        "../../Assets/Models/Doozy/NewBehavior/Running.animset",
+        "../../Assets/Models/Doozy/NewBehavior/LeftStrafe.animset",
+        "../../Assets/Models/Doozy/NewBehavior/RightStrafe.animset",
+        "../../Assets/Models/Doozy/NewBehavior/Back.animset"
+      ]
+    },
+    "AnimatorComponent": {
+
+    },
+    "ColliderComponent": {
+      "Shape": {
+        "Type": "Hull",
+        "HalfExtents": [ 0.5, 1.0, 0.5 ],
+        "Origin": [ 0.0, -1.0, 0.0 ]
+      }
+    },
+    "CharacterContollerComponent": {
+      "WalkSpeed": 10,
+      "SprintSpeed": 2
+    }
+  }
+}
